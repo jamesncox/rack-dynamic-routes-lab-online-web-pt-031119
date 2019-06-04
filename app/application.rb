@@ -7,7 +7,8 @@ class Application
     if req.path=="/items/<ITEM NAME>"
       price 
     else 
-      resp.write "Route "
+      resp.write "Route not found"
+      resp.
     end 
   end 
   
