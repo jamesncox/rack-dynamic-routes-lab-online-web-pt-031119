@@ -8,7 +8,7 @@ class Application
       price 
     else 
       resp.write "Route not found"
-      resp.
+      resp.status = 404
     end 
   end 
   
